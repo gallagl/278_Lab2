@@ -10,5 +10,6 @@ C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/Stack-L
 C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/Stack-MultiInstance.dir
 C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/Stack-Strings.dir
 C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/Stack-UsingQ.dir
+C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/stackproblem.dir
 C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

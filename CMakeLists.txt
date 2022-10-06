@@ -16,3 +16,5 @@ add_executable(Stack-LinkListVersion00 Stack-LinkListVersion00.c)
 add_executable(Stack-MultiInstance Stack-MultiInstance.c)
 add_executable(Stack-Strings Stack-Strings.c)
 add_executable(Stack-UsingQ Stack-UsingQ.c)
+add_executable(stackproblem stackproblem.c)
+

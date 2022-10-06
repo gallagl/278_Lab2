@@ -436,6 +436,39 @@ build Stack-UsingQ.exe: C_EXECUTABLE_LINKER__Stack-UsingQ_Debug CMakeFiles/Stack
   TARGET_IMPLIB = libStack-UsingQ.dll.a
   TARGET_PDB = Stack-UsingQ.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stackproblem
+
+
+#############################################
+# Order-only phony target for stackproblem
+
+build cmake_object_order_depends_target_stackproblem: phony || CMakeFiles/stackproblem.dir
+
+build CMakeFiles/stackproblem.dir/stackproblem.c.obj: C_COMPILER__stackproblem_Debug C$:/Users/Liam/Desktop/278_Projects/278_Lab2/stackproblem.c || cmake_object_order_depends_target_stackproblem
+  DEP_FILE = CMakeFiles\stackproblem.dir\stackproblem.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\stackproblem.dir
+  OBJECT_FILE_DIR = CMakeFiles\stackproblem.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stackproblem
+
+
+#############################################
+# Link the executable stackproblem.exe
+
+build stackproblem.exe: C_EXECUTABLE_LINKER__stackproblem_Debug CMakeFiles/stackproblem.dir/stackproblem.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stackproblem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stackproblem.exe
+  TARGET_IMPLIB = libstackproblem.dll.a
+  TARGET_PDB = stackproblem.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -486,6 +519,8 @@ build Stack-Strings: phony Stack-Strings.exe
 
 build Stack-UsingQ: phony Stack-UsingQ.exe
 
+build stackproblem: phony stackproblem.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -494,7 +529,7 @@ build Stack-UsingQ: phony Stack-UsingQ.exe
 #############################################
 # Folder: C:/Users/Liam/Desktop/278_Projects/278_Lab2/cmake-build-debug
 
-build all: phony Queue-ArrayVersion1.exe Queue-ArrayVersion2.exe Queue-ArrayVersion3.exe Queue-IncludeVersion.exe Queue-LinkListVersion.exe Stack-ArrayVersion00.exe Stack-ArrayVersion01.exe Stack-BracketChecker.exe Stack-LinkListVersion00.exe Stack-MultiInstance.exe Stack-Strings.exe Stack-UsingQ.exe
+build all: phony Queue-ArrayVersion1.exe Queue-ArrayVersion2.exe Queue-ArrayVersion3.exe Queue-IncludeVersion.exe Queue-LinkListVersion.exe Stack-ArrayVersion00.exe Stack-ArrayVersion01.exe Stack-BracketChecker.exe Stack-LinkListVersion00.exe Stack-MultiInstance.exe Stack-Strings.exe Stack-UsingQ.exe stackproblem.exe
 
 # =============================================================================
 # Built-in targets
