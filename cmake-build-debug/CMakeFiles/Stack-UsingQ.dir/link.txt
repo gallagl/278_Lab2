@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Stack-UsingQ.dir/objects.a
+"C:\PROGRA~1\JetBrains\CLion 2022.2.1\bin\mingw\bin\ar.exe" qc CMakeFiles\Stack-UsingQ.dir/objects.a @CMakeFiles\Stack-UsingQ.dir\objects1.rsp
+"C:\PROGRA~1\JetBrains\CLion 2022.2.1\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\Stack-UsingQ.dir/objects.a -Wl,--no-whole-archive -o Stack-UsingQ.exe -Wl,--out-implib,libStack-UsingQ.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Stack-UsingQ.dir\linklibs.rsp

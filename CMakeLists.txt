@@ -17,4 +17,5 @@ add_executable(Stack-MultiInstance Stack-MultiInstance.c)
 add_executable(Stack-Strings Stack-Strings.c)
 add_executable(Stack-UsingQ Stack-UsingQ.c)
 add_executable(stackproblem stackproblem.c)
+add_executable(queueproblem queueproblem.c)
 

@@ -1,4 +1,4 @@
-// stackproblem.c – Lab 02 – FirstName, LastName
+// stackproblem.c – Lab 02 – Liam, Gallagher
 
 #include <stdlib.h>
 #include <stdio.h>
