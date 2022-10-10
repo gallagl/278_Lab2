@@ -1,6 +1,4 @@
-//
-// Created by galla on 2022-10-06.
-//
+// queueproblem.c – Lab 02 – Liam Gallagher
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -37,7 +35,6 @@ void print_queue(queue *q){
             printf("\n");
         }
     }
-
 }
 
 void q_insert(int d, queue *q){
